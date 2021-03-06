@@ -1,0 +1,25 @@
+--------------API----------------
+
+(1) API: Application Programming Interface, 
+	in some cases, traditional dataset such as CSV file serves the mark. For instance CSV files, after sometime needs to be updated, API is solution to this.
+	Through API, dataset is auto-updated or pre-updated.
+
+(2) API is refering to a server through which you can easily retrieve data, by requests.get("url,link, An add. to hit"). You can also feed into data. But how i don't know yet???
+
+
+(3) DUMPS(): INPUT is Python Obj. and OUTPUT is Json obj.
+    LOADS(): INPUT Json obj. and OUTPUT is Python obj.
+
+(4) Important Keywords : Requests, GET(), Response, DUMPS(), LOADS().
+
+
+
+(5) FACTS: Status of the request made.
+
+	   200: Success. (Everything went OK.)  
+	   301: Switched. (Endpoint or Domain Names for requests) 
+	   400: BAD REQUEST.(Error in request-data.)
+	   401: Authentication Error.
+	   403: Restriction Error.
+	   404: Page or context of the request not found.
+	   503: Server ain't ready for request.	
